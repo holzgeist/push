@@ -1,4 +1,7 @@
 import Foundation
+#if canImport(push_objc)
+import push_objc
+#endif
 #if os(macOS)
     // Needed on macOS, otherwise build won't find e.g. UNUserNotificationCenterDelegate. Optional on iOS.
     import UserNotifications

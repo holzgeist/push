@@ -10,6 +10,7 @@
     public typealias DarwinApplication = NSApplication
 #endif
 
+@objc(SwiftPushPlugin)
 public class SwiftPushPlugin: NSObject, FlutterPlugin {
     private let flutterPluginRegistrar: FlutterPluginRegistrar
     private var pushHostHandlers: PushHostHandlers

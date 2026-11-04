@@ -13,6 +13,6 @@ import share_plus
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   FlutterLocalNotificationsPlugin.register(with: registry.registrar(forPlugin: "FlutterLocalNotificationsPlugin"))
   PathProviderPlugin.register(with: registry.registrar(forPlugin: "PathProviderPlugin"))
-  PushPlugin.register(with: registry.registrar(forPlugin: "PushPlugin"))
+  SwiftPushPlugin.register(with: registry.registrar(forPlugin: "SwiftPushPlugin"))
   SharePlusMacosPlugin.register(with: registry.registrar(forPlugin: "SharePlusMacosPlugin"))
 }

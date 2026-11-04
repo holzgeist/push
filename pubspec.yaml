@@ -24,10 +24,10 @@ flutter:
     platforms:
       # Shared implementation for darwin (iOS and macOS) as per https://docs.flutter.dev/packages-and-plugins/developing-packages#shared-ios-and-macos-implementations
       ios:
-        pluginClass: PushPlugin
+        pluginClass: SwiftPushPlugin
         sharedDarwinSource: true
       macos:
-        pluginClass: PushPlugin
+        pluginClass: SwiftPushPlugin
         sharedDarwinSource: true
       android:
         package: uk.orth.push

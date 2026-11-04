@@ -13,7 +13,8 @@ A new flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Ben Butterworth' => 'push@orth.uk' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'push/Sources/**/*.{h,m,swift}'
+  s.public_header_files = 'push/Sources/push_objc/include/**/*.h'
   # As per https://docs.flutter.dev/packages-and-plugins/developing-packages#shared-ios-and-macos-implementations
   s.ios.dependency 'Flutter'
   s.osx.dependency 'FlutterMacOS'
